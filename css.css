@@ -1,0 +1,97 @@
+#daddy
+{
+	margin: auto;
+	height: 600px;
+	width: 1000px;
+}
+#baby1
+{
+	height: 40px; 
+	width: 990px;
+	background-image: linear-gradient(pink,white);
+	border: outset 5px;
+}
+#baby2
+{
+	height: 240px; 
+	width: 590px;
+	background-image: linear-gradient(green,white);
+	border: outset 5px;
+}
+#baby3
+{
+	height: 40px; 
+	width: 290px;
+	background-image: linear-gradient(grey,white);
+	border: outset 5px;
+}
+#baby4
+{
+	height: 140px; 
+	width: 290px;
+	background-image: linear-gradient(red,white);
+	border: outset 5px;
+}
+#baby5
+{
+	height: 190px; 
+	width: 290px;
+	background-image: linear-gradient(blue,white);
+	border: outset 5px;
+}
+#baby6
+{
+	height: 140px; 
+	width: 290px;
+	background-image: linear-gradient(yellow,white);
+	border: outset 5px;
+}
+#baby7
+{
+	height: 140px; 
+	width: 90px;
+	background-image: linear-gradient(purple,white);
+	border: outset 5px;
+}
+#baby8
+{
+	height: 40px; 
+	width: 390px;
+	background-image: linear-gradient(orange,white);
+	border: outset 5px;
+}
+#baby9
+{
+	height: 190px; 
+	width: 123px;
+	background-image: linear-gradient(brown,white);
+	border: outset 5px;
+}
+#baby10
+{
+	height: 190px; 
+	width: 124px;
+	background-image: linear-gradient(gold,white);
+	border: outset 5px;
+}
+#baby11
+{
+	height: 190px; 
+	width: 123px;
+	background-image: linear-gradient(silver,white);
+	border: outset 5px;
+}
+#baby12
+{
+	height: 40px; 
+	width: 390px;
+	background-image: linear-gradient(grey,white);;
+	border: outset 5px;
+}
+#baby13
+{
+	height: 40px; 
+	width: 990px;
+	background-image: linear-gradient(skyblue,white);;
+	border: outset 5px;
+}
