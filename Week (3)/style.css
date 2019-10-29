@@ -1,0 +1,47 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+ul
+{
+	list-style: none;
+	white-space: nowrap;
+	height: 24px;
+	background-color: black;
+}
+ul li
+{
+	display: block;
+	position: relative;
+	float: left;
+	color: gold;
+	text-align: center;
+	line-height: 24px;
+	height: 24px;
+	width: 200px;
+	background-color: black;
+}
+li ul
+{
+	display: none;
+}
+ul li:hover
+{
+	background-color: gold;
+	color: black;
+}
+li:hover>ul
+{
+	display: block;
+	position: absolute;
+}
+li:hover li
+{
+	float: none;
+}
+ul ul ul
+{
+	left: 100%;
+	top: 0;
+}
