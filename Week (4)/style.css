@@ -1,68 +1,107 @@
-body
+*
 {
-	background-color: grey;
-	width: 1000px;
-	margin: auto;
-}
-h1
-{
-	text-align: center;
-	height: 80px;
-	line-height: 120px;
-}
-#pp
-{
-	text-align: center;
-}
-ul
-{
-	background-color: black;
-	height: 60px;
 	margin: 0;
-	padding: 0;
-	list-style-type: none;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.All
+{
+	width: 100%;
+}
+.Image
+{
+	height: 400px;
+	width: 100%;
+	z-index: -1;
+	position: fixed;
+	top: 60px;
+	right: 0px;
+}
+.Menu
+{
+	height: 60px;
+	background-color: white;
+	width: 100%;
+	z-index: 3;
+	position: fixed;
 }
 li
 {
-	background-color: black;
-	float: left;
+	display: flex;
+	line-height: 60px;
+}
+ul:hover
+{
+	color: red;
+}
+.Title
+{
+	margin: auto;
+	z-index: 2;
+	position: initial;
+	color: grey;
+	background-color: white;
+}
+.Title div
+{
 	padding: 20px;
 }
-li a
+.Space
 {
-	background-color: black;
-	text-decoration: none;
+	height: 460px;
+	z-index: 2;
+	position: initial;
+}
+h1
+{
+	line-height: 120px;
+}
+.Title1
+{
+	width: 75%;
+	margin: auto;
+}
+.Image1
+{
+	height: 400px;
+	width: 400px;
+	border-radius: 400px;
+	margin-left: auto;
+}
+.Title2
+{
+	width: 400px;
+	height: 400px;
+	margin-right: auto;
+}
+.Image2
+{
+	height: 400px;
+	width: 400px;
+	border-radius: 400px;
+	margin-right: auto;
+}
+.Title3
+{
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+}
+.Footer
+{
+	height: 150px;
+	background-color: grey;
 	color: white;
-}
-#div1
-{
-	background-color: white;
-	margin: 5px;
-}
-.div2
-{
-	background-color: white;
-	padding: 10px;
-	margin: 5px;
-	margin-bottom: 10px;
-}
-.img1
-{
-	width: 700px;
-	height: 240px;
-	object-fit: contain;
-}
-.img2
-{
-	max-width: 100%;
-	max-height: 120px;
-	object-fit: contain;
 }
 h2
 {
-	text-align: center;
+	padding-top: 60px;
+}
+.Footer:hover
+{
 	background-color: silver;
-	height: 120px;
-	line-height: 120px;
-	margin: 5px;
+}
+a
+{
+	color: white;
 }
