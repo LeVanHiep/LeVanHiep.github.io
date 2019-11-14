@@ -1,0 +1,23 @@
+*
+{
+	padding: 0;
+	margin: auto;
+}
+#Menu
+{
+	height: 80px;
+	background-color: silver;
+}
+ul
+{
+	list-style-type: none;
+	padding: 10px;
+}
+li
+{
+	float: right;
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid black;
+	margin: 5px;
+}
