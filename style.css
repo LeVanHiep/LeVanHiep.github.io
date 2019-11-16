@@ -1,0 +1,175 @@
+*
+{
+	font-family: "Raleway" , sans-serif;
+	font-size: 15px;
+}
+#Body
+{
+	width: 1200px;
+	background-color: white;
+	margin: auto;
+}
+h1
+{
+	text-align: center;
+	font-size: 36px;
+}
+#Gt
+{
+	text-align: center;
+}
+.Box
+{
+	margin: 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.Cmt
+{
+	float: right;
+}
+.Un
+{
+	background-color: black;
+	color: white;
+	display: inline-block;
+	padding: 5px 15px;
+	text-align: center;
+	line-height: 30px;
+}
+img
+{
+	object-fit: cover;
+	width: 100%;
+}
+div
+{
+	margin: auto;
+}
+.Title
+{
+	padding: 15px;
+}
+#Body button
+{
+	padding: 15px;
+	background-color: white;
+	border: 1px solid grey;
+}
+#Body button:hover
+{
+	background-color: silver;
+	cursor: pointer;
+}
+.Cmt
+{
+	padding: 10px;
+}
+.Title h4
+{
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.Pp
+{
+	padding: 10px;
+	height: 40px;
+}
+.Pp h2
+{
+	margin: 0;
+	line-height: 50px;
+	font-size: 20px;
+}
+#Ps
+{
+	background-color: #f1f1f1;
+}
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+li
+{
+	display: flex;
+	border-top: 1px #f1f1f1 solid;
+}
+li:hover
+{
+	background-color: silver;
+}
+li img
+{
+	width: 40px;
+	height: 40px;
+}
+li p
+{
+	margin: auto;
+	margin-left: 10px;
+}
+.Pn
+{
+	margin-left: 10px;
+}
+#Tag
+{
+	padding: 20px;
+	line-height: 40px;
+}
+#Tag span
+{
+	background-color: #f1f1f1;
+	padding: 5px;
+}
+#Tv
+{
+	background-color: black !important;
+	color: white;
+}
+footer
+{
+	background-color: grey;
+	height: 150px;
+	color: white;
+	width: 100%;
+}
+#Mp
+{
+	height: 100px;
+}
+footer button
+{
+	background-color: black;
+	color: white;
+	padding: 12px 24px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: none;
+}
+footer #Dis
+{
+	opacity: 50%;
+}
+footer button:hover
+{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+footer #Dis:hover
+{
+	cursor: not-allowed;
+}
+footer p
+{
+	margin-left: 20px;
+	font-size: 24px;
+	margin-top: 0;
+}
+a
+{
+	color: white;
+	font-size: 24px;
+}
