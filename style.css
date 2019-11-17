@@ -5,7 +5,7 @@
 }
 #Body
 {
-	width: 1200px;
+	width: 100%;
 	background-color: white;
 	margin: auto;
 }
@@ -131,21 +131,15 @@ li p
 footer
 {
 	background-color: grey;
-	height: 150px;
 	color: white;
 	width: 100%;
-}
-#Mp
-{
-	height: 100px;
 }
 footer button
 {
 	background-color: black;
 	color: white;
 	padding: 12px 24px;
-	margin-top: 20px;
-	margin-left: 20px;
+	margin: 20px;
 	border: none;
 }
 footer #Dis
@@ -172,4 +166,23 @@ a
 {
 	color: white;
 	font-size: 24px;
+}
+#Main
+{
+	display: flex;
+}
+.Sep
+{
+	margin-top: 0px;
+}
+@media all and (max-width: 1000px)
+{
+	#Main
+	{
+		display: block;
+	}
+	.Sep
+	{
+		width: 100% !important;
+	}
 }
