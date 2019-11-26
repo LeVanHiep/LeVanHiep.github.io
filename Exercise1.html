@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>100% height image</title>
+	<link rel="stylesheet" type="text/css" href="Exercise1.css">
+	<script src="https://kit.fontawesome.com/27f6d17c61.js"></script>
+</head>
+<body>
+	<img src="Img/capture.jpg" class="Avt">
+	<i class="fa fa-bars" onclick="Open()"></i>
+	<div id="Tab">
+		<ul class="Menu">
+			<li>Home</li>
+			<li>Portfolio</li>
+			<li>About</li>
+			<li>Contact</li>
+		</ul>
+		<i class="fa fa-remove" onclick="Close()"></i>
+	</div>
+	<div class="Body">
+		<div class="Name">
+			<h1>Jane Doe</h1>
+			<p>Photographer & Designer</p>
+			<button class="Down">
+				<i class="fa fa-download"></i>  
+				<span>Download Resume</span>
+			</button>
+		</div>
+		<h2>My Portfolio</h2>
+		<div class="Img">
+			<div class="Img2">
+				<img src="https://www.w3schools.com/w3images/wedding.jpg">
+				<img src="https://www.w3schools.com/w3images/rocks.jpg">
+				<img src="https://www.w3schools.com/w3images/sailboat.jpg">
+			</div>
+			<div class="Img2">
+				<img src="https://www.w3schools.com/w3images/underwater.jpg">
+				<img src="https://www.w3schools.com/w3images/chef.jpg">
+				<img src="https://www.w3schools.com/w3images/wedding.jpg">
+				<img src="https://www.w3schools.com/w3images/p6.jpg">
+			</div>
+		</div>
+		<h3>About</h3>
+		<p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<h3>My skill</h3>
+		<p class="Major">Photography</p>
+		<div class="Rate"><div class="Pers" style="width: 95%">95%</div></div>
+		<p class="Major">Web Design</p>
+		<div class="Rate"><div class="Pers" style="width: 85%">85%</div></div>
+		<p class="Major">Photoshop</p>
+		<div class="Rate"><div class="Pers" style="width: 80%">80%</div></div>
+		<div class="Achi">
+			<div class="Info">
+				<span>14+</span>
+				<p>Partners</p>
+			</div>
+			<div class="Info">
+				<span>14+</span>
+				<p>Partners</p>
+			</div>
+			<div class="Info">
+				<span>14+</span>
+				<p>Partners</p>
+			</div>
+			<div class="Info">
+				<span>14+</span>
+				<p>Partners</p>
+			</div>
+		</div> 
+		<button class="Down">
+			<i class="fa fa-download"></i>  
+			<span>Download Resume</span>
+		</button>
+		<h3>My Reputation</h3>
+		<div class="Cmt">
+			<img src="https://www.w3schools.com/w3images/avatar_smoke.jpg" class="Per">
+			<div class="Detail">
+				<p><span>Chandler Bing.</span>  Web Designer</p>
+				<p>Jane Doe is just awesome. I am so happy to have met her!</p>
+			</div>
+		</div>
+		<div class="Cmt">
+			<img src="https://www.w3schools.com/w3images/bandmember.jpg" class="Per">
+			<div class="Detail">
+				<p><span>Chris Fox.</span>  CEO at Mighty Schools.</p>
+				<p>Jane Doe saved us from a web disaster</p>
+			</div>
+		</div>
+		<div class="Cmt">
+			<img src="https://www.w3schools.com/w3images/avatar_g2.jpg" class="Per">
+			<div class="Detail">
+				<p><span>Rebecca Flex.</span>  CEO at Company.</p>
+				<p>No one is better than Jane Doe.</p>
+			</div>
+		</div>
+		<h3>My Price</h3>
+		<div class="Price">
+			<div class="Cost">
+				<div class="Kind">Basic</div>
+				<div class="Kinds">Web Design</div>
+				<div class="Kinds">Photography</div>
+				<div class="Kinds">5GB Storage</div>
+				<div class="Kinds">Mail Support</div>
+				<div class="Kinds">
+					<span>$ 10</span>
+					<p>per month</p>
+				</div>
+				<div class="Sign">
+					<div class="Up">Sign Up</div>
+				</div>
+			</div>
+			<div class="Cost">
+				<div class="Kind" style="background-color: black;">Pro</div>
+				<div class="Kinds">Web Design</div>
+				<div class="Kinds">Photography</div>
+				<div class="Kinds">50GB Storage</div>
+				<div class="Kinds">Mail Support</div>
+				<div class="Kinds">
+					<span>$ 25</span>
+					<p>per month</p>
+				</div>
+				<div class="Sign">
+					<div class="Up">Sign Up</div>
+				</div>
+			</div>
+		</div>
+		<h3>Contact Me</h3>
+	</div>
+</body>
+<script type="text/javascript">
+	function Open()
+	{
+		document.getElementById('Tab').style.display="block";
+	}
+	function Close()
+	{
+		document.getElementById('Tab').style.display="none";
+	}
+</script>
+</html>
