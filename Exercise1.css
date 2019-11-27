@@ -15,12 +15,6 @@
 	top: 0;
 	padding: 0;
 }
-.Right
-{
-	height: 2000px;
-	width: 60%;
-	float: right;
-}
 .fa-bars
 {
 	position: fixed;
@@ -38,7 +32,7 @@
 }
 #Tab
 {
-	height: 100vh;
+	height: 100%;
 	position: fixed;
 	background-color: black;
 	width: 60%;
@@ -106,10 +100,16 @@
 .Down
 {
 	padding: 12px 24px;
-	background-color: silver;
+	background-color: #f1f1f1;
 	border-style: none;
 	margin-top: 16px;
 	margin-bottom: 16px;
+	font-size: 22px;
+}
+.Down:hover
+{
+	background-color: #ccc;
+	cursor: pointer;
 }
 h2
 {
@@ -240,3 +240,101 @@ h3
 	padding: 12px 24px;
 	background-color: white;
 }
+.Contact
+{
+	border-top: solid silver 0.5px;
+	font-size: 16px;
+}
+.Contact i
+{
+	font-size: 36px;
+}
+.Mess
+{
+	font-size: 15px;
+	color: grey;
+}
+.Mess input
+{
+	width: 100%;
+	padding: 16px 8px;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+.Foot
+{
+	padding: 64px;
+	margin-top: 64px;
+	text-align: center;
+	font-size: 15px;
+	color: grey;
+	background-color: #f1f1f1;
+	margin-left: -8px;
+	margin-right: -30px;
+	margin-bottom: -24px;
+}
+.Foot a
+{
+	color: grey;
+}
+.Foot i
+{
+	padding: 0;
+	font-size: 24px;
+}
+.Foot i:hover
+{
+	opacity: 0.6;
+}
+@media all and (max-width: 600px)
+{
+	*
+	{
+		background-color: blue;
+	}
+}
+@media all and (max-width: 1000px) and (min-width: 601px)
+{
+	.Avt
+	{
+		position: static;
+		margin-right: 20%;
+		margin-left: 20%;
+		width: 60%;
+	}
+	.Body
+	{
+		width: 100%;
+		margin: 0;
+		padding: 12px;
+		float: none;
+	}
+	.Img
+	{
+		display: block;
+	}
+	.Img2
+	{
+		width: 100%;
+	}
+	.Achi
+	{
+		display: block;
+	}
+	.Info
+	{
+		width: 100%;
+	}
+	.Price
+	{
+		display: block;
+	}
+	.Cost
+	{
+		width: 100%;
+	}
+}
+/* Lỗi:
+1. K nhận reponsive width<600px;
+2. khi thay đổi kích thước font-size tự động thay đổi theo mà k giữ nguyên đc;
+3. Menu chưa có hiệu ứng mở ra
