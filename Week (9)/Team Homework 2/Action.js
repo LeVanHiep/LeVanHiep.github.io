@@ -26,6 +26,6 @@ window.onload = function()
 		if(Index==x.length) Index = 0;
 		x[Index].style.display = "flex";
 		Index++;
-		/*setTimeout(NextSlide,6000);*/
+		setTimeout(NextSlide,6000);
 	}
 }
